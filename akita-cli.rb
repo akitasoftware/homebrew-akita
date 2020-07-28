@@ -6,7 +6,7 @@ class AkitaCli < Formula
 
   if OS.mac?
     url "https://releases.akita.software/cli/0.3.2/akita_0.3.2_darwin_amd64.zip"
-    sha256 "50fae50e2c1150915a19b25cabc00a89ad1d7c5b6b686102fc0b554c9ff1c1c5"
+    sha256 "a15f36e08781d17709d2817d472b5023841b75772696db5cb3a094a69eecf175" 
   end
 
   def install
