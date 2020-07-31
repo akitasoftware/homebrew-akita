@@ -3,6 +3,8 @@ class AkitaCli < Formula
   homepage "https://www.akitasoftware.com"
   version "0.3.3"
   bottle :unneeded
+  
+  depends_on "libpcap"
 
   if OS.mac?
     url "https://releases.akita.software/cli/0.3.3/akita_0.3.3_darwin_amd64.zip"
@@ -14,6 +16,3 @@ class AkitaCli < Formula
   end
 
 end
-
-
-
