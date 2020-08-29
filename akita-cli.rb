@@ -5,8 +5,8 @@ class AkitaCli < Formula
   bottle :unneeded
 
   if OS.mac?
-    url "https://releases.akita.software/cli/0.4.0/akita_0.4.0_darwin_amd64.zip"
-    sha256 "d3483211519e610428b3ace26ebea96e74193be3e738c590b378d1cbfe8836fe"
+    url "https://releases.akita.software/cli/0.4.1/akita_0.4.1_darwin_amd64.zip"
+    sha256 "9ae6b496a37f522fe74ff1f39b1b1fbddc159625661af51e2f283180df8dc994"
   end
 
   def install
