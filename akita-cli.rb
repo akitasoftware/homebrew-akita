@@ -1,7 +1,7 @@
 class AkitaCli < Formula
   desc "The Akita CLI"
   homepage "https://www.akitasoftware.com"
-  version "0.5.4"
+  version "0.6.0"
   bottle :unneeded
 
   if OS.mac?
