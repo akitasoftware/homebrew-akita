@@ -1,12 +1,12 @@
 class AkitaCli < Formula
   desc "The Akita CLI"
   homepage "https://www.akitasoftware.com"
-  version "0.6.2"
+  version "0.10.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://releases.akita.software/cli/0.6.2/akita_0.6.2_darwin_amd64.zip"
-    sha256 "7d64a475f2b70267ef07468b01db59d5eae2e4e8dcf16e47302de95a528abd24"
+    url "https://releases.akita.software/cli/0.10.0/akita_0.10.0_darwin_amd64.zip"
+    sha256 "2d936ec194966232f5250f71b73a8d870dafd66cdb5b7fdead28c79cdf8673d2"
   end
 
   def install
