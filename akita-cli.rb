@@ -5,7 +5,7 @@ class AkitaCli < Formula
   bottle :unneeded
 
   if OS.mac?
-    if Hardware.CPU.arm?
+    if Hardware::CPU.arm?
       url "https://releases.akita.software/cli/0.10.6/akita_0.10.6_darwin_arm64.zip"
       sha256 "c4ec3edfac12f69d162f85402ad582f882ebed6b27c81b88e6167860a48df9df"
     else
