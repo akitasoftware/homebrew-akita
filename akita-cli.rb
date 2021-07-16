@@ -6,9 +6,8 @@ class AkitaCli < Formula
 
   if OS.mac?
     if Hardware::CPU.arm?
-      # XXX(cns): Remove temporarily until version 0.17.2 is available for ARM.
-      # url "https://releases.akita.software/cli/0.17.2/akita_0.17.2_darwin_arm64.zip"
-      # sha256 "265d606def32fd392e86551a613dee0abb516bef4cb270547ef9b959215de6cb"
+      url "https://releases.akita.software/cli/0.17.2/akita_0.17.2_darwin_arm64.zip"
+      sha256 "d185b44220fe065a2803ef1ac49ef1802a9203e8401a03e11053d3c9d90d9e06"
     else
       url "https://releases.akita.software/cli/0.17.2/akita_0.17.2_darwin_amd64.zip"
       sha256 "70ef87277f81aedab3abca79bcb58800054c3fbe2fd9e33ed77ad9a2d587374d"
