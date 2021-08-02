@@ -10,7 +10,7 @@ class AkitaCli < Formula
       sha256 "890d3b598857886b0f77b382ab15056509b6edd10aaf68e3612e933de68559ac"
     else
       url "https://releases.akita.software/cli/0.17.3/akita_0.17.3_darwin_amd64.zip"
-      sha256 "9f6479d5cf3e463ee674eee62771b988996bd221f3c1279496f2d14b1ee7fd68"
+      sha256 "e62e6c6542a89328abe598b3cabb089d0279af759d266bae2f6efa066be1e51e"
     end
   end
 
