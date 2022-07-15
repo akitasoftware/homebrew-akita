@@ -6,7 +6,7 @@ class AkitaCli < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://releases.akita.software/cli/0.21.3/akita_0.21.3_darwin_arm64.zip"
-      sha256 "b367cb151cb1a7348da509749bc78bf2f82a913f946c03d6d064b7074d41aa0d"
+      sha256 "127091992bebe1991c2a155e82da73b2c2b10d8f921d527c1efaff75dd90a5aa"
     else
       url "https://releases.akita.software/cli/0.21.3/akita_0.21.3_darwin_amd64.zip"
       sha256 "51b7627aa340294c6574e543dfca625857357430cbe80995506f810496d84d22"
