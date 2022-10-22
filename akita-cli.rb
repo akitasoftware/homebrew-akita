@@ -1,15 +1,15 @@
 class AkitaCli < Formula
   desc "The Akita CLI"
   homepage "https://www.akitasoftware.com"
-  version "0.21.14"
+  version "0.21.15"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://releases.akita.software/cli/0.21.14/akita_0.21.14_darwin_arm64.zip"
-      sha256 "ef060ce323503df92a890b7d173549a19052ffe01ec45663d52012e76c09bb67"
+      url "https://releases.akita.software/cli/0.21.15/akita_0.21.15_darwin_arm64.zip"
+      sha256 "8dc24439cef5c3266d413d40e9b7138cea1833c6e4c5cd731aba587795eaf0ae"
     else
-      url "https://releases.akita.software/cli/0.21.14/akita_0.21.14_darwin_amd64.zip"
-      sha256 "724c603ac97d4d0909e48d143d736faa5b385f0fafc0e2c46d2352c530d512fc"
+      url "https://releases.akita.software/cli/0.21.15/akita_0.21.15_darwin_amd64.zip"
+      sha256 "a65f9603d1ee7b37c14d6cc66196465576dcbe62a9e659cb3bfaed67b370a31b"
     end
   end
 
